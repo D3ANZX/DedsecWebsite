@@ -171,25 +171,25 @@ body{
 
 
 
-.timeline h1{
+#timeline h1{
     color: white;
     font-family: roboto;
     font-weight: 600;
     font-size: 80px;
 }
 
-.timeline{
+#timeline{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.timeline img{
+#timeline img{
     height: 500px;
     width: 800;
     padding: 20px;
 }
 
-.timeline p{
+#timeline p{
     font-family: roboto;
     font-size: 20px;
     color: white;
@@ -197,17 +197,17 @@ body{
     
 }
 
-.timeline2{
+#timeline2{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.timeline2 img{
+#timeline2 img{
     height: 500px;
     width: 800px;
 }
 
-.timeline2 p{
+#timeline2 p{
     color: white;
     font-family: roboto;
     font-size: 50px;
