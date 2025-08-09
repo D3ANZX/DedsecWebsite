@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  #101010;
+}
+
+.navBar{
+    position: relative;
+    z-index: 2;
+}
+.navBar ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    float: right;
+    background-color: #000129;
+ 
+}
+
+.navBar li{
+    float: right;
+    width: fit-content;
+}
+
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 200;
+}
+
+.navBar a:hover{
+    background-color: blue;
+    transform: scale(1.2);
+}
+
+
+.navBar button{
+    background-color: #000129;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+
+.navBar button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.navIcon img{
+    position: relative;
+    height: 47px;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navIcon img:hover{
+    transform: scale(1.1);
+}
+
+.navIcon h2{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    font-family: roboto;
+    font-weight: 700;
+    
+}
+
+#homeBanner{
+    height: 550px;
+    background-image: url(/assets/bg.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#homeBanner h1{
+    color: white;
+    font-size: 72px;
+    position: absolute;
+    left: 200px;
+    top: 130px;
+    font-family: roboto;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 10);
+    
+}
+
+#homeBanner img{
+    border-radius: 300px;
+    position: absolute;
+    float: right;
+    top: 100px;
+    right: 200px;
+    height: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#homeBanner img:hover{
+    transform: scale(1.1);
+}
+
+#homeBanner p{
+    color: white;
+    font-family: roboto;
+    position: relative;
+    float: right;
+    top: 350px;
+    right: 250px;
+    text-align: center;
+}
+
+#button1{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #000129;
+    box-shadow: 2px 2px 8px 2px rgba(13, 110, 253, 0.7);
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 300px;
+    left: 200px;
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#button1:hover{
+    transform: scale(1.1);
+}
+
+#button2{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(90, 4, 4);
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 8px 2px red;
+    position: relative;
+    top: 300px;
+    left: 300px;
+    font-family: roboto;
+    font-weight: 900;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#button2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.timeline h1{
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.timeline{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.timeline img{
+    height: 500px;
+    width: 800;
+    padding: 20px;
+}
+
+.timeline p{
+    font-family: roboto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    
+}
+
+.timeline2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.timeline2 img{
+    height: 500px;
+    width: 800px;
+}
+
+.timeline2 p{
+    color: white;
+    font-family: roboto;
+    font-size: 50px;
+    text-align: justify;
+    
+}
