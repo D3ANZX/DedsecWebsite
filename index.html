@@ -10,55 +10,85 @@
     </head>
 
     <body>
-        
-        <div class="navBar"> 
-        <nav>
- 
-        <ul>
-            <li><button onclick="aboutClicked()"> About </button></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Homepage</a></li>
+        <div class="main">
+            <div class="section1 section">
+                <div class="navBar"> 
+                    <div class="navIcon">
+                        <img src="assets/favicon.png" alt=""> 
+                        <h2> dedsec.dev </h2>
+                    </div>
 
-            <div class="navIcon">
-            <img src="assets/favicon.png" alt=""> 
-            <h2> dedsec.dev </h2>
+                    <nav>
+                        <ul>
+                            <li><a href="">Homepage</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><button onclick="aboutClicked()"> About </button></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="boxContent boxHomeBanner">
+
+                    <div id="homeBanner" class="homeBanner centerContent">
+
+                        <div class="grid">
+
+                            <div class="gridLeft">
+                                <h1 id="bannerTitle"> Hi! We are DEDSEC <br> IT Professionals</h1>
+
+                                <div class="flex">
+                                    <button id="button1"> HIRE US </button>
+                                    <button id="button2"> LET'S TALK </button>
+                                </div>
+                            </div>
+
+                            <div class="gridRight">
+                                <img src="assets/favicon.png" alt="">
+                                <p> <b> DEDSEC.DEV </b> <br> dedsecdevanon@gmail.com <br> 09917103431</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </ul>
-        </nav>
+
+            <div class="section2 section">
+
+                <div class="boxContent">
+
+                    <div class="centerContent">
+
+                        <div class="grid">
+
+                            <div class="gridLeft">
+                                <h2 style="color: white; font-family: roboto;"> WELCOME TO OUR <span style="color: darkblue;">WEBSITE</span> </h2>
+
+                                <ul id="timeline">
+                                    <li>
+                                        <h1> We <span style="color: darkblue"> EXCEL </span> in <br> <span style="color: darkblue;"> ARDUINO ROBOTICS <br> & IoT</span></h1>
+                                        <p> With five years of experience in the field and over 10+ Arduino projects, our team has made its name in the field of Science and Technology through robotics. Our profficency in robotics and IoT remains competitive, making us the best choice for making your robotics and IoT ideas come to life.</p>
+                                    </li>
+
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="gridRight">
+
+                                <ul class="timeline2"> 
+                                    <li>
+                                        <img src="assets/robotics.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="assets/webdev.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                <script src="script.js" buffer> </script>
+            </div>
         </div>
-
-   
-        <div id="homeBanner">
-            
-            <h1 id="bannerTitle"> Hi! We are DEDSEC <br> IT Professionals</h1>
-            <img src="assets/favicon.png" alt="">
-            <button id="button1"> HIRE US </button>
-            <button id="button2"> LET'S TALK </button>
-            <p> <b> DEDSEC.DEV </b> <br> dedsecdevanon@gmail.com <br> 09917103431</p>
-        </div>
-
-
-    <h2 style="color: white; font-family: roboto;"> WELCOME TO OUR <span style="color: darkblue;">WEBSITE</span> </h2>
-
-
-    <ul class="timeline">
-        <li>
-            <h1> We <span style="color: darkblue"> EXCEL </span> in <br> <span style="color: darkblue;"> ARDUINO ROBOTICS <br> & IoT</span></h1>
-            <p> With five years of experience in the field and over 10+ Arduino projects, our team has made its name in the field of Science and Technology through robotics. Our profficency in robotics and IoT remains competitive, making us the best choice for making your robotics and IoT ideas come to life.</p>
-        </li>
-        <li><img src="assets/robotics.png" alt=""></li>
-    </ul>
-
-
-    <ul class="timeline2"> 
-        <li><img src="assets/webdev.png" alt=""></li>
-    </ul>
-   
-
-
-    <script src="script.js"> </script>
     </body>
-
-
 </html>
